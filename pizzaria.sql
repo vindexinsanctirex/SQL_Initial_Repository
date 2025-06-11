@@ -16,7 +16,7 @@ LOCK TABLES `clientes` WRITE;
 
 INSERT INTO `clientes` VALUES (1,'João Silva','joao.silva@email.com'),(2,'Maria Oliveira','maria.oliveira@email.com'),(3,'Carlos Souza','carlos.souza@email.com'),(4,'Ana Paula','ana.paula@email.com');
 
-UNLOCK TABLES;
+UNLOCK TABLE;
 
 
 DROP TABLE IF EXISTS `pedidos`;
