@@ -15,7 +15,7 @@ LOCK TABLES `clientes` WRITE;
 
 INSERT INTO `clientes` VALUES (1,'Caio','Recife'),(2,'João','Rio de Janeiro'),(3,'Maria','João Pessoa'),(4,'Elza','Lisboa'),(5,'Fernanda Lima','São Paulo'),(6,'Ricardo Gomes','Rio de Janeiro'),(7,'Patrícia Souza','Belo Horizonte'),(8,'Bruno Rocha','Curitiba'),(9,'Luciana Almeida','Porto Alegre'),(10,'Eduardo Tavares','Recife'),(11,'Carla Mendes','Fortaleza'),(12,'André Barbosa','Salvador'),(13,'Renata Dias','Brasília'),(14,'Gabriel Costa','Manaus'),(15,'Carlos Eduardo','Belo Horizonte'),(16,'Fernanda Souza','Curitiba'),(17,'Lucas Pereira','Fortaleza'),(18,'Ana Beatriz','Salvador'),(19,'Marcos Vinícius','Recife');
 
-UNLOCK TABLE;
+UNLOCK TABLES;
 
 
 DROP TABLE IF EXISTS `pedidos`;
